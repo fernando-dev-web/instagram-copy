@@ -2,7 +2,7 @@ main{
     height: 100vh;
 }
 .img{
-    max-width: 400px;
+    max-width: 380px;
     margin-right: 0px  !important;
     padding-right: 0px !important;
 }
@@ -11,15 +11,19 @@ figcaption{
 }
 figure .slide{
     background-image: url(../img/home-phones-2x.png);
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position:top ;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
+    max-width: 600px;
+    min-width: 350px;
+   
+    
 }
 .form{
     max-width: 400px !important;
     margin-left: 0px  !important;
-    height: 600px;
+    height: 500px;
 }
 
 input{
@@ -43,8 +47,10 @@ input{
     
     padding: 0px 6px;
 }
-.btn{
+.btn
+{
     width: 80%;
+    
 }
 
 .fab{
